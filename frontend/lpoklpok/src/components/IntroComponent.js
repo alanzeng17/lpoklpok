@@ -59,17 +59,24 @@ const IntroComponent = ({ mobile=false }) => (
     </Container>
     <div className='divClass'>
     <Grid divided='vertically'>
-    <Grid.Row columns={2}>
+    <Grid.Row columns={2} divided>
     <Grid.Column>
-        <Header as='h2' textAlign='center' content='Something lorem upsum' 
-        style={{fontSize: '1.7em', fontWeight: 'bold', marginTop: '1.5em', color:'#FFFFFF'}}/>
+        <Header as='h2' textAlign='center' content='About Snipit' 
+        style={{fontSize: '1.7em', fontWeight: 'bold', marginTop: '3.8em', color:'#FFFFFF'}}/>
         <Divider />
         <Header as='h4' textAlign='center' content='Snipit is a program that uses speech-recognition software to segment large video and audio files to organize the information into tangible and relevant pieces of data. Snipit works by locating keywords spoken throughout the file using speech-to-text software, analyzing the keywords spoken, and breaking the video into distinct categories where the keywords appear the most. ' 
-        style={{fontSize: '1.7em', fontWeight: 'normal', marginTop: '1.5em', color:'#FFFFFF'}}/>
-        <Image src={kevinImage} />
+        style={{fontSize: '1.7em', fontWeight: 'normal', marginTop: '1em', color:'#FFFFFF'}}/>
+        <Divider />
+        <Header as='h1'></Header>
     </Grid.Column>
     <Grid.Column>
-        <Image src={kevinImage} />
+        <Header as='h2' textAlign='center' content="How it's made"
+        style={{fontSize: '1.7em', fontWeight: 'bold', marginTop: '3.8em', color:'#FFFFFF'}}/>
+        <Divider />
+        <Header as='h4' textAlign='center' content='Snipit uses React.js for its front-end, Python for its back-end, and Rev.ai fori its speech recognition component. ' 
+        style={{fontSize: '1.7em', fontWeight: 'normal', marginTop: '1em', color:'#FFFFFF'}}/>
+        <Divider />
+        <Header as='h1'></Header>
     </Grid.Column>
     </Grid.Row>
     </Grid>

@@ -45,6 +45,7 @@ color: #123C69
   margin-top: 155px;
   margin-bottom: 230px;
 }
+
 .ui.huge.button{
   margin-top: 18px;
   color:#123C69;
@@ -76,6 +77,10 @@ color: #123C69
 .ui.grid {
   background-color: #123C69;
 }
+.ui.grid.column {
+  width: 70%;
+  background-color: #123C69;
+}
 .divClass {
-  margin-top: 10em;
+  margin-top: 1px;
 }

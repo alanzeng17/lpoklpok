@@ -6,7 +6,8 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import IntroComponent from "./IntroComponent";
 import UploadComponent from "./UploadComponent";
 import AboutComponent from "./AboutComponent";
-import Results from "./ResultComponent";
+import ResultComponent from "./ResultComponent";
+import HurricaneComponent from "./HurricaneComponent";
 import '../App.css';
 
 
@@ -23,8 +24,8 @@ function RouteContainer({ location }) {
             <Switch location={location}>
               <Route exact path="/" component={IntroComponent} />
               <Route path="/upload" component={UploadComponent} />
-              <Route path="/results" component={null} />
-              <Route path="/output" component={null} />
+              <Route path="/results" component={ResultComponent} />
+              <Route path="/resultsh" component={HurricaneComponent} />
               <Route path="/about" component={AboutComponent} />
               <Route path="/contact" component={null} />
             </Switch>

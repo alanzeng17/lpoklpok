@@ -22,7 +22,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import myImage from '../images/logo.png';
 import '../styles.css';
 import '../App.css';
-const ResultComponent = (input) => (
+const HurricaneComponent = (input) => (
     <Container textAlign='center' text>
     <Image src={myImage} size='medium' centered ></Image>
     <Grid columns={2} divided >
@@ -38,20 +38,20 @@ const ResultComponent = (input) => (
 
         <Table.Body>
         <Table.Row>
-            <Table.Cell>Buns</Table.Cell>
-            <Table.Cell>1:05</Table.Cell>
+            <Table.Cell>Wind Speeds</Table.Cell>
+            <Table.Cell>0:07</Table.Cell>
         </Table.Row>
         <Table.Row>
-            <Table.Cell>Burger</Table.Cell>
-            <Table.Cell>2:00</Table.Cell>
+            <Table.Cell>Category Two</Table.Cell>
+            <Table.Cell>0:29</Table.Cell>
         </Table.Row>
         <Table.Row>
-            <Table.Cell>Lettuce</Table.Cell>
-            <Table.Cell>3:50</Table.Cell>
+            <Table.Cell>House</Table.Cell>
+            <Table.Cell>0:57</Table.Cell>
         </Table.Row>
         <Table.Row>
-            <Table.Cell>Cheese</Table.Cell>
-            <Table.Cell>4:30</Table.Cell>
+            <Table.Cell>Roof</Table.Cell>
+            <Table.Cell>1:02</Table.Cell>
         </Table.Row>
         </Table.Body>
         <Table.Footer>
@@ -59,7 +59,7 @@ const ResultComponent = (input) => (
         </Table>
         </Grid.Column>
         <Grid.Column centered>
-            <iframe width="480" height="320" src="https://www.youtube.com/embed/7EnWiGYT1g4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width='1095' height='616' src='https://www.youtube.com/embed/lqfExHpvLRY' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>
         </Grid.Column>
     </Grid.Row>
     </Grid>
@@ -69,4 +69,4 @@ const ResultComponent = (input) => (
     </Button>
     </Container>
 )
-export default ResultComponent;
+export default HurricaneComponent;

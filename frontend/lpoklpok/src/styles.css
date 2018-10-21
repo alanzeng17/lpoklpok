@@ -1,0 +1,26 @@
+.ui.grid.column {
+    width: 70%;
+    background-color: #EEE2DC !important;
+    position: relative;
+  }
+  .ui.table {
+    background-color: #EEE2DC !important;
+    background: #EEE2DC !important;
+    color: #123C69 !important;
+  }
+  .ui.table thead th {
+    background-color: #EEE2DC !important;
+    background: #EEE2DC !important;
+    color: #123C69 !important;
+  }
+  .ui.table.footer {
+    background-color: #EEE2DC !important;
+    background: #EEE2DC !important;
+  }
+  .Embed {
+    width: 1600px !important;
+    height: 1200px !important;
+    }
+  .gZOZjA .route-section{
+   padding-bottom: 1000px !important; 
+  }
