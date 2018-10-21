@@ -42,7 +42,8 @@ color: #123C69
 }
 .ui.text.container {
   text-align: 'center';
-  margin-top: 140px;
+  margin-top: 155px;
+  margin-bottom: 230px;
 }
 .ui.huge.button{
   margin-top: 18px;
@@ -57,11 +58,11 @@ color: #123C69
 }
 .drhwc.route-section {
   background-color: #EEE2DC;
-  padding-bottom: 670px;
+  padding-bottom: 220px;
 }
 .route-section{
   color:#123C69;
-  bottom: 400px;
+  bottom: 200px;
 }
 .item {
   top: 10px;
@@ -71,4 +72,10 @@ color: #123C69
 }
 .ui.header {
   bottom: 100px;
+}
+.ui.grid {
+  background-color: #123C69;
+}
+.divClass {
+  margin-top: 10em;
 }

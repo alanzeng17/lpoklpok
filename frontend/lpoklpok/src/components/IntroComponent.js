@@ -21,10 +21,11 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import {$} from 'jquery';
 import '../App.css';
 import myImage from '../images/logo.png';
+import kevinImage from '../images/kevin.jpg';
 
 
 const IntroComponent = ({ mobile=false }) => (
-
+    <div>
     <Container textAlign='center' text>
     <Image src={myImage} size='medium' centered />
      {/*} <Header
@@ -56,5 +57,23 @@ const IntroComponent = ({ mobile=false }) => (
       </Button>
     </Link>
     </Container>
+    <div className='divClass'>
+    <Grid divided='vertically'>
+    <Grid.Row columns={2}>
+    <Grid.Column>
+        <Header as='h2' textAlign='center' content='Something lorem upsum' 
+        style={{fontSize: '1.7em', fontWeight: 'bold', marginTop: '1.5em', color:'#FFFFFF'}}/>
+        <Divider />
+        <Header as='h4' textAlign='center' content='Snipit is a program that uses speech-recognition software to segment large video and audio files to organize the information into tangible and relevant pieces of data. Snipit works by locating keywords spoken throughout the file using speech-to-text software, analyzing the keywords spoken, and breaking the video into distinct categories where the keywords appear the most. ' 
+        style={{fontSize: '1.7em', fontWeight: 'normal', marginTop: '1.5em', color:'#FFFFFF'}}/>
+        <Image src={kevinImage} />
+    </Grid.Column>
+    <Grid.Column>
+        <Image src={kevinImage} />
+    </Grid.Column>
+    </Grid.Row>
+    </Grid>
+    </div>
+    </div>
   )
 export default IntroComponent
