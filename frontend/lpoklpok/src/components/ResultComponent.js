@@ -38,20 +38,24 @@ const ResultComponent = (input) => (
 
         <Table.Body>
         <Table.Row>
-            <Table.Cell>Buns</Table.Cell>
-            <Table.Cell>1:05</Table.Cell>
+            <Table.Cell>Expensive Secret Ingredients</Table.Cell>
+            <Table.Cell>00:51</Table.Cell>
         </Table.Row>
         <Table.Row>
-            <Table.Cell>Burger</Table.Cell>
-            <Table.Cell>2:00</Table.Cell>
+            <Table.Cell>Crab Burger</Table.Cell>
+            <Table.Cell>01:10</Table.Cell>
         </Table.Row>
         <Table.Row>
-            <Table.Cell>Lettuce</Table.Cell>
-            <Table.Cell>3:50</Table.Cell>
+            <Table.Cell>Natural Umami Bombs</Table.Cell>
+            <Table.Cell>2:10</Table.Cell>
         </Table.Row>
         <Table.Row>
-            <Table.Cell>Cheese</Table.Cell>
-            <Table.Cell>4:30</Table.Cell>
+            <Table.Cell>Low Oven</Table.Cell>
+            <Table.Cell>3:17</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+            <Table.Cell>Parmesan Cheese Crisps</Table.Cell>
+            <Table.Cell>3:56</Table.Cell>
         </Table.Row>
         </Table.Body>
         <Table.Footer>

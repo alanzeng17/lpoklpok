@@ -22,7 +22,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import myImage from '../images/logo.png';
 import '../styles.css';
 import '../App.css';
-const HurricaneComponent = (input) => (
+const ResultComponent = (input) => (
     <Container textAlign='center' text>
     <Image src={myImage} size='medium' centered ></Image>
     <Grid columns={2} divided >
@@ -38,20 +38,24 @@ const HurricaneComponent = (input) => (
 
         <Table.Body>
         <Table.Row>
-            <Table.Cell>Wind Speeds</Table.Cell>
-            <Table.Cell>0:07</Table.Cell>
+            <Table.Cell>Expensive Secret Ingredients</Table.Cell>
+            <Table.Cell>00:51</Table.Cell>
         </Table.Row>
         <Table.Row>
-            <Table.Cell>Category Two</Table.Cell>
-            <Table.Cell>0:29</Table.Cell>
+            <Table.Cell>Crab Burger</Table.Cell>
+            <Table.Cell>01:10</Table.Cell>
         </Table.Row>
         <Table.Row>
-            <Table.Cell>House</Table.Cell>
-            <Table.Cell>0:57</Table.Cell>
+            <Table.Cell>Natural Umami Bombs</Table.Cell>
+            <Table.Cell>2:10</Table.Cell>
         </Table.Row>
         <Table.Row>
-            <Table.Cell>Roof</Table.Cell>
-            <Table.Cell>1:02</Table.Cell>
+            <Table.Cell>Low Oven</Table.Cell>
+            <Table.Cell>3:17</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+            <Table.Cell>Parmesan Cheese Crisps</Table.Cell>
+            <Table.Cell>3:56</Table.Cell>
         </Table.Row>
         </Table.Body>
         <Table.Footer>
@@ -59,16 +63,14 @@ const HurricaneComponent = (input) => (
         </Table>
         </Grid.Column>
         <Grid.Column centered>
-            <iframe width='480' height='320' src='https://www.youtube.com/embed/lqfExHpvLRY' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>
+            <iframe width="480" height="320" src="https://www.youtube.com/embed/bEr2k42qUg8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </Grid.Column>
     </Grid.Row>
     </Grid>
-    <Link to='/'>
+
     <Button size='huge'>
             Start Over
     </Button>
-    </Link>
     </Container>
-
 )
-export default HurricaneComponent;
+export default ResultComponent;

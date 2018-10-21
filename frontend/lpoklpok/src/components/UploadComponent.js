@@ -63,7 +63,11 @@ class UploadComponent extends Component{
         { 
             this.setState({link:'/results'});
             console.log(this.state.link);
-        }}
+        }
+        if (e.target.value === 'https://www.youtube.com/watch?v=bEr2k42qUg8') {
+            this.setState({link: '/resultso'});
+        }
+    }
     render() {
         return (
             <Container textAlign='center' text>

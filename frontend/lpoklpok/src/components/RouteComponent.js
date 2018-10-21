@@ -8,6 +8,7 @@ import UploadComponent from "./UploadComponent";
 import AboutComponent from "./AboutComponent";
 import ResultComponent from "./ResultComponent";
 import HurricaneComponent from "./HurricaneComponent";
+import UTComponent from "./UTComponent";
 import '../App.css';
 
 
@@ -27,7 +28,7 @@ function RouteContainer({ location }) {
               <Route path="/results" component={ResultComponent} />
               <Route path="/resultsh" component={HurricaneComponent} />
               <Route path="/about" component={AboutComponent} />
-              <Route path="/contact" component={null} />
+              <Route path="/resultso" component={UTComponent} />
             </Switch>
             </section>
           </CSSTransition>
