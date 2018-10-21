@@ -23,6 +23,7 @@ import UploadComponent from './UploadComponent.js'
 import RouteContainer from "./RouteComponent";
 import styled from "styled-components";
 import '../App.css';
+import myImage from '../images/small_icon.png';
 
 
 class NavbarComponent extends Component {
@@ -31,9 +32,12 @@ class NavbarComponent extends Component {
     hideFixedMenu = () => this.setState({ fixed: false })
     showFixedMenu = () => this.setState({ fixed: true })
 
+    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
     render() {
         const { children } = this.props
         const { fixed } = this.state
+        const { activeItem } = this.state
         return (
         <Wrapper>
         <Responsive minWidth={Responsive.onlyTablet.minWidth}>
@@ -44,19 +48,26 @@ class NavbarComponent extends Component {
         >
 
             <Menu
-            //pointing={!fixed}
+            pointing={fixed}
             secondary={!fixed}
             size='large'
             color='#123C69'
             >
-            <Container id='font' color='#123C69'>
+            <Container textAlign='center' id='font' color='#123C69'>
+                <Menu.Item>
+                <Image src={myImage}/>
+                </Menu.Item>
                 <Link to='/'>
-                <Menu.Item as='a' active>
+                <Menu.Item as='a' active={activeItem === 'Home'} onClick={this.handleItemClick}>
                 Home
                 </Menu.Item>
                 </Link>
-                <Menu.Item as='a'>About</Menu.Item>
-                <Menu.Item as='a'>Contact</Menu.Item>
+                <Link to='/about'>
+                <Menu.Item as='a' onClick={this.handleItemClick} >About</Menu.Item>
+                </Link>
+                <Link to='/contact'>
+                <Menu.Item as='a' onClick={this.handleItemClick}>Contact</Menu.Item>
+                </Link>
                 <Menu.Item position='right'>
                 </Menu.Item>
             </Container>

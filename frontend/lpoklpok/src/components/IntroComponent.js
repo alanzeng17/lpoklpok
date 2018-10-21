@@ -25,8 +25,8 @@ import myImage from '../images/logo.png';
 
 const IntroComponent = ({ mobile=false }) => (
 
-    <Container text>
-    <Image src={myImage} size='medium' ></Image>
+    <Container textAlign='center' text>
+    <Image src={myImage} size='medium' centered />
      {/*} <Header
         as='h1'
         content='Snipit'        

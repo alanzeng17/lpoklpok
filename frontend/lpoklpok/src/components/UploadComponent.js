@@ -18,9 +18,11 @@ import {
 import { Link } from "react-router-dom";
 import { render , findDOMNode} from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
+import myImage from '../images/logo.png';
 
 const UploadComponent = () => (
-    <Container text>
+    <Container textAlign='center' text>
+        <Image src={myImage} size='medium' centered></Image>
         <Header
         as='h2'
         content='Upload the YouTube link of video to Snip!'

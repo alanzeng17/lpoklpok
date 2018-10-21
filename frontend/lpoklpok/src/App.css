@@ -40,13 +40,20 @@ color: #123C69
 #font {
   color: #123C69;
 }
+.ui.text.container {
+  text-align: 'center';
+  margin-top: 140px;
+}
 .ui.huge.button{
+  margin-top: 18px;
   color:#123C69;
-  /*background-color: #EDC7B7;*/
+  background-color: #c7dbf9;
 }
 .ui.huge.button:hover{
   color:#123C69;
   background-color: #EDC7B7;
+}
+.ui.medium.image {
 }
 .drhwc.route-section {
   background-color: #EEE2DC;
@@ -55,4 +62,13 @@ color: #123C69
 .route-section{
   color:#123C69;
   bottom: 400px;
+}
+.item {
+  top: 10px;
+}
+.ui.image{
+  bottom: 10px;
+}
+.ui.header {
+  bottom: 100px;
 }
