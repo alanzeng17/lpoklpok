@@ -10,4 +10,7 @@ post = {"key": "value",
 
 import pprint
 
-pprint.pprint(collection.find_one({"key": "hurricanes"}))
+collection.delete_one({"key": "hurricanes_parsed"})
+pprint.pprint(collection.find_one({"key": "hurricanes_parsed"}))
+#pprint.pprint(collection.find_one({"key": "hurricanes"}))
+
