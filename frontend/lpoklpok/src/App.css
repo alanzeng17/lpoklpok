@@ -1,3 +1,7 @@
+body {
+background-color: black;
+color: #123C69
+}
 .App {
   text-align: center;
 }
@@ -15,7 +19,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -29,4 +32,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main {
+  background-color: black;
+  margin-bottom: 100px;
+}
+#font {
+  color: #123C69;
+}
+.ui.huge.button{
+  color:#123C69;
+  /*background-color: #EDC7B7;*/
+}
+.ui.huge.button:hover{
+  color:#123C69;
+  background-color: #EDC7B7;
+}
+.drhwc.route-section {
+  background-color: #EEE2DC;
+  padding-bottom: 670px;
+}
+.route-section{
+  color:#123C69;
+  bottom: 400px;
 }
