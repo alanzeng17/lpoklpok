@@ -59,7 +59,7 @@ const HurricaneComponent = (input) => (
         </Table>
         </Grid.Column>
         <Grid.Column centered>
-            <iframe width='1095' height='616' src='https://www.youtube.com/embed/lqfExHpvLRY' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>
+            <iframe width='480' height='320' src='https://www.youtube.com/embed/lqfExHpvLRY' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>
         </Grid.Column>
     </Grid.Row>
     </Grid>
